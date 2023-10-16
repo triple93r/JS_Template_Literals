@@ -9,13 +9,14 @@
     <h2>Expression Substitution in Template Literals</h2>
     <p>Template literals allows variables in strings:</p>
     <p id="demo"></p>
-    <p>Template literals are not supported in Internet Explorer.</p>
+   
 
     <script>
         let price = 50;
         let VAT = 0.25;
         let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
-        document.getElementById("demo").innerHTML = total;
+        //document.getElementById("demo").innerHTML = total;
+        console.log(total);
     </script>
         
 </body>

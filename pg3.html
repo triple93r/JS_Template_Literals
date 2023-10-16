@@ -10,7 +10,7 @@
 <h2>HTML Templates in JavaScript Template Literals</h2>
 <p>Template literals allows variables in strings:</p>
 <p id="demo"></p>
-<p>Template literals are not supported in Internet Explorer.</p>
+
 
     <script>
         let header = "Templates Literals";
@@ -23,7 +23,8 @@
         }
         
         html += `</ul>`;
-        document.getElementById("demo").innerHTML = html;
+        //document.getElementById("demo").innerHTML = html;
+        console.log(html);
     </script>
 </body>
 </html>
